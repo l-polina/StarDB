@@ -5,7 +5,9 @@ import "./person-details.css";
 export default class PersonDetails extends Component {
     render() {
         return (
-            <div>Hello</div>
+            <div className="person-details card">
+                <img className="person-image" />
+            </div>
         )
     }
 }
